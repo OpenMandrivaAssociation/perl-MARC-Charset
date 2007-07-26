@@ -6,16 +6,15 @@
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Summary:	%{module} module for perl
+Summary:	Convert MARC-8 encoded strings to UTF-8
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		ftp.perl.org/pub/CPAN/modules/by-module/MARC/%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}/
-
-BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-root
+Source:     http://www.cpan.org/modules/by-module/Marc/%{module}-%{version}.tar.bz2
 Buildrequires:  perl(Class::Accessor)
 Buildrequires:  perl(XML::SAX)
+BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 MARC::Charset is a package to assist you in converting converting data encoded
