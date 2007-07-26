@@ -10,7 +10,7 @@ Summary:	Convert MARC-8 encoded strings to UTF-8
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}/
-Source:     http://www.cpan.org/modules/by-module/Marc/%{module}-%{version}.tar.bz2
+Source:     http://www.cpan.org/modules/by-module/MARC/%{module}-%{version}.tar.bz2
 Buildrequires:  perl(Class::Accessor)
 Buildrequires:  perl(XML::SAX)
 BuildArch:	noarch
