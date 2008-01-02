@@ -14,6 +14,7 @@ Source:     http://www.cpan.org/modules/by-module/MARC/%{module}-%{version}.tar.
 Buildrequires:  perl(Class::Accessor)
 Buildrequires:  perl(XML::SAX)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 MARC::Charset is a package to assist you in converting converting data encoded
