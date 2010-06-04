@@ -1,6 +1,6 @@
 %define module	MARC-Charset
 %define name	perl-%{module}
-%define version 1.1
+%define version 1.2
 %define release %mkrel 1
 
 Name:		%{name}
@@ -10,7 +10,7 @@ Summary:	Convert MARC-8 encoded strings to UTF-8
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{module}/
-Source:     http://www.cpan.org/modules/by-module/MARC/%{module}-%{version}.tar.bz2
+Source:     	http://www.cpan.org/modules/by-module/MARC/%{module}-%{version}.tar.gz
 Buildrequires:  perl(Class::Accessor)
 Buildrequires:  perl(XML::SAX)
 BuildArch:	noarch
