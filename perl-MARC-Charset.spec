@@ -1,6 +1,6 @@
 %define module	MARC-Charset
 %define name	perl-%{module}
-%define version 1.2
+%define version 1.31
 %define release %mkrel 1
 
 Name:		%{name}
