@@ -1,14 +1,14 @@
 %define upstream_name    MARC-Charset
-%define upstream_version 1.34
+%define upstream_version 1.35
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.34
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 Summary:	Convert MARC-8 encoded strings to UTF-8
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MARC/MARC-Charset-1.34.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MARC/MARC-Charset-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Class::Accessor)
@@ -99,5 +99,6 @@ make test
 * Tue May 02 2006 Jerome Soyer <saispo@mandriva.org> 0.95-1mdk
 - From Stéphane Téletchéa <steletch@free.fr>
 - Initial Mandriva release
+
 
 
