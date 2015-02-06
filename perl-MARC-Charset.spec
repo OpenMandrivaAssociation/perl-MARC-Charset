@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 Summary:	Convert MARC-8 encoded strings to UTF-8
 License:	GPL or Artistic
 Group:		Development/Perl
