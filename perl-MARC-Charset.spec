@@ -7,7 +7,7 @@ Release:	3
 Summary:	Convert MARC-8 encoded strings to UTF-8
 License:	GPL or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/MARC/MARC-Charset-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
