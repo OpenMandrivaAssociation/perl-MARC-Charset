@@ -1,14 +1,12 @@
 %define upstream_name    MARC-Charset
-%define upstream_version 1.35
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	1.35
+Release:	5
 Summary:	Convert MARC-8 encoded strings to UTF-8
 License:	GPL or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/MARC-Charset
-Source0:	https://cpan.metacpan.org/authors/id/G/GM/GMCHARLT/MARC-Charset-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/G/GM/GMCHARLT/MARC-Charset-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -21,7 +19,7 @@ MARC::Charset is a package to assist you in converting converting data encoded
 using MARC-8 character sets to Unicode (UTF-8).
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
